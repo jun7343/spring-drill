@@ -2,8 +2,7 @@ plugins {
     kotlin("jvm")
 }
 
-group = "com.bank.system.domain"
-version = "unspecified"
+group = "${project.group}.gateway.webflux"
 
 repositories {
     mavenCentral()

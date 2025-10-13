@@ -1,10 +1,4 @@
-plugins {
-    kotlin("jvm")
-}
-
-repositories {
-    mavenCentral()
-}
+group = "${project.group}.gateway.config"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
