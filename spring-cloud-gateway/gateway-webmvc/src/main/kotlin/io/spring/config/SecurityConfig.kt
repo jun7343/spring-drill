@@ -12,10 +12,8 @@ class SecurityConfig {
     fun securityFilterChain(http: HttpSecurity): SecurityFilterChain {
         http
             .authorizeHttpRequests {
-                it
             }
             .oauth2ResourceServer {
-
             }
         return http.build()
     }
