@@ -1,0 +1,20 @@
+[versions]
+
+jvm = "21"
+project = "0.0.1-SNAPSHOT"
+kotlinPlugin = "2.1.21"
+springBoot = "3.4.3"
+springDependencyManagement = "1.1.7"
+openApi = "2.8.13"
+openFeignJpaQueryDsl = "7.1"
+ulidCreator = "5.2.3"
+mockitoKotlin = "6.1.0"
+
+[plugins]
+
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlinPlugin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlinPlugin" }
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlinPlugin" }
+kotlin-jpa = { id = "org.jetbrains.kotlin.plugin.jpa", version.ref = "kotlinPlugin" }
+spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
+spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }

@@ -1,4 +1,4 @@
-package io.spring
+package com.example.cservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

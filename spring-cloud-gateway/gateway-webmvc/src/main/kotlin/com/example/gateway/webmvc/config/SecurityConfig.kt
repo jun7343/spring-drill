@@ -1,4 +1,4 @@
-package io.spring.config
+package com.example.gateway.webmvc.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

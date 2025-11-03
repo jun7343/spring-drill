@@ -1,4 +1,4 @@
-package com.bservice.presentation
+package com.example.aservice.presentation
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
@@ -11,24 +11,24 @@ class ExampleController {
     @GetMapping("/api/a")
     fun getA(): ResponseEntity<String> {
         Thread.sleep(Random.nextLong(100, 1000))
-        return ResponseEntity.ok("B Service Call Success")
+        return ResponseEntity.ok("A Service Call Success")
     }
 
     @GetMapping("/api/b")
     fun getB(): ResponseEntity<String> {
         Thread.sleep(Random.nextLong(100, 1000))
-        return ResponseEntity.ok("B Service Call Success")
+        return ResponseEntity.ok("A Service Call Success")
     }
 
     @GetMapping("/api/c")
     fun getC(): ResponseEntity<String> {
         Thread.sleep(Random.nextLong(100, 1000))
-        return ResponseEntity.ok("B Service Call Success")
+        return ResponseEntity.ok("A Service Call Success")
     }
 
     @GetMapping("/api/d")
     fun getD(): ResponseEntity<String> {
         Thread.sleep(Random.nextLong(100, 1000))
-        return ResponseEntity.ok("B Service Call Success")
+        return ResponseEntity.ok("A Service Call Success")
     }
 }

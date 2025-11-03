@@ -1,9 +1,10 @@
 plugins {
-    kotlin("jvm") version "2.1.21"
-    kotlin("kapt") version "2.1.21"
-    kotlin("plugin.spring") version "2.1.21"
-    id("org.springframework.boot") version "3.5.3"
-    id("io.spring.dependency-management") version "1.1.7"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.kotlin.spring)
+    alias(libs.plugins.kotlin.jpa)
+    alias(libs.plugins.spring.boot)
+    alias(libs.plugins.spring.dependency.management)
 }
 
 repositories {

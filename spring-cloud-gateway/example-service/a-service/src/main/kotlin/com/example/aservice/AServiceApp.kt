@@ -1,4 +1,4 @@
-package com.bservice
+package com.example.aservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

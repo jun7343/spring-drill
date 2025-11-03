@@ -1,4 +1,4 @@
-package com.cservice
+package com.example.gateway.webmvc
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
